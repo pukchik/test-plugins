@@ -1,0 +1,26 @@
+{
+  "id": "wallpaper-folder-switcher",
+  "name": "Wallpaper Folder Switcher",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "eralash",
+  "license": "MIT",
+  "repository": "https://github.com/pukchik/test-plugins",
+  "description": "Quickly switch between wallpaper folders",
+  "tags": ["Bar", "Panel", "System"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "folders": [],
+      "currentFolder": ""
+    }
+  }
+}
